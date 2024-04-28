@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    transition: .3s;
+}
+
+/* header section */
+
+.header-area {
+    border-top: 5px solid #4272d7;
+    min-height: 120px;
+    /* for making block header*/
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    margin-top: 36px;
+}
+
+.search-icon {
+    float: right;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.search-icon::before {
+    background: #cccccc;
+    content: "";
+    height: 15px;
+    left: 0;
+    top: 3px;
+    width: 2px;
+    position: absolute;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    /* float: left; */
+    margin-left: 40px;
+    position: relative;
+}
+
+.main-menu ul li a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 50px 0;
+}
+
+.main-menu ul li ul.submenu {
+    position: absolute;
+    width: 260px;
+    background-color: #171a21;
+    top: 110%;
+    left: 0;
+    border-top: 5px solid #4272d7;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.main-menu ul li:hover ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.main-menu ul li ul.submenu li {
+    margin: 0;
+    /*otherwise margin found from ancestor node*/
+    display: block;
+    border-bottom: 2px solid #1e2128;
+}
+
+.main-menu ul li ul.submenu li a {
+    color: #fff;
+    font-size: 13px;
+    padding: 15px 20px;
+    /*otherwise padding found from ancestor node*/
+}
+
+.main-menu ul li:hover>a {
+    color: #4272d7;
+}
+
+/* .main-menu ul li ul.submenu li a:hover {
+    background-color: #4272d7;
+    padding-left: 30px;
+} */
+.main-menu ul li ul.submenu li:hover>a {
+    background-color: #4272d7;
+    padding-left: 30px;
+}
+
+
+/* for two dimension menu start */
+.main-menu ul li ul.submenu li ul.submenu {
+    left: 100%;
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.main-menu ul li ul.submenu li:hover ul.submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* for two dimension menu end */
