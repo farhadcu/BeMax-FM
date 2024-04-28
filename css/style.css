@@ -83,7 +83,6 @@ ul {
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
-
 }
 
 .main-menu ul li:hover ul.submenu {
