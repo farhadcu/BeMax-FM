@@ -213,7 +213,7 @@ ul {
     width: 10px;
 }
 
-.slider-active .owl-dots .active {
+.slider-active .owl-dot.active {
     background: blue;
 }
 
