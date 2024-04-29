@@ -12,6 +12,10 @@ a {
     transition: .3s;
 }
 
+.fix {
+    overflow: hidden;
+}
+
 /* header section */
 
 .header-area {
@@ -133,3 +137,84 @@ ul {
 }
 
 /* for two dimension menu end */
+
+/* header end  */
+
+/* slider area  start */
+
+.single-slide {
+    background-position: center top;
+    background-size: cover;
+    padding: 175px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.single-slide h4 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.single-slide h2 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.single-slide a {
+    background: #4272d7;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.slider-area {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-active .owl-nav div {
+    background: red;
+    color: #fff;
+    height: 40px;
+    left: 50px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+}
+
+.slider-active .owl-nav div.owl-next {
+    right: 50px;
+    left: auto;
+}
+
+.slider-active .owl-dots {
+    bottom: 40px;
+    margin-top: -21px;
+    position: relative;
+    text-align: center;
+    z-index: 999;
+}
+
+.slider-active .owl-dot {
+    background: red;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 2px;
+    width: 10px;
+}
+
+.slider-active .owl-dots .active {
+    background: blue;
+}
+
+/* slider area  end */
