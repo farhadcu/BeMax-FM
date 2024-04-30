@@ -268,3 +268,60 @@ ul {
 }
 
 /* cta area end  */
+
+/* features area start  */
+.features-area {
+    padding: 70px 0;
+}
+
+.single-features {
+    position: relative;
+    overflow: hidden;
+}
+
+.features-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #507bd6;
+    height: 100%;
+    /* bottom: 0; */
+    padding: 30px;
+    transition: .3s;
+    transform: translateY(66%);
+}
+
+.single-features:hover .features-content {
+    transform: translateY(0%);
+}
+
+.features-icon {
+    margin-bottom: 30px;
+}
+
+.features-icon i {
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.features-icon h3 {
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.features-content p {
+    color: #e5e5e5;
+    line-height: 25px;
+}
+
+.features-content a {
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* features area end  */
