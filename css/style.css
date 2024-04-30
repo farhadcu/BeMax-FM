@@ -46,6 +46,12 @@ a {
     padding: 0 15px;
 }
 
+.col-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
 .col-8 {
     width: 66.66%;
     float: left;
@@ -485,3 +491,23 @@ ul {
 }
 
 /* project-area end  */
+
+/* video-area start  */
+.video {
+    position: relative;
+}
+
+.video>a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+    width: 55px;
+    margin: auto;
+    color: #fff;
+    font-size: 50px;
+}
+
+/* video-area end  */
