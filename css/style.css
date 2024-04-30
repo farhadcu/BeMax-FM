@@ -21,6 +21,19 @@ a {
     margin-right: -15px;
 }
 
+.black-bg {
+    background: #222;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+
 .col-3 {
     width: 25%;
     float: left;
@@ -463,5 +476,12 @@ ul {
     color: #cccccc;
 }
 
+.section-title.white-text>h2 {
+    color: #fff;
+}
+
+.section-title.white-text>h2::before {
+    background-color: #ddd;
+}
 
 /* project-area end  */
