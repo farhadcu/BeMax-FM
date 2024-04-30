@@ -510,4 +510,26 @@ ul {
     font-size: 50px;
 }
 
+.choose-list {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.choose-title {
+    margin-bottom: 20px;
+}
+
+.choose-title i {
+    color: #555555;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.choose-title h3 {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #555555;
+}
+
 /* video-area end  */
