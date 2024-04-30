@@ -33,6 +33,13 @@ a {
     padding: 0 15px;
 }
 
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+
 /* header section */
 
 .header-area {
@@ -325,3 +332,69 @@ ul {
 }
 
 /* features area end  */
+
+/* services-area start  */
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title>h2::before {
+    position: absolute;
+    background: #222;
+    height: 2px;
+    width: 50px;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.services-area {
+    background: #f0f0f0;
+    padding: 70px 0;
+    padding-bottom: 20px;
+}
+
+.service-icon i {
+    background: #4272d7;
+    color: #fff;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.service-content {
+    padding-left: 15px;
+}
+
+.service-content h3 {
+    color: #555555;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.service-content p {
+    color: #666666;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.single-service {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* services-area end  */
