@@ -25,8 +25,16 @@ a {
     background: #222;
 }
 
+.gray-bg {
+    background: #f2f2f2;
+}
+
 .mb-80 {
     margin-bottom: 80px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 .pb-70 {
@@ -557,3 +565,156 @@ ul {
 }
 
 /* working-area end  */
+
+/* blog-area start  */
+.blog-wrapper {
+    display: flex;
+
+}
+
+.blog-content {
+    padding-left: 20px;
+    float: left;
+    width: 65%;
+}
+
+.blog-content>h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+.blog-content>p {
+    color: #666666;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.meta span a {
+    color: #555555;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.meta span a i {
+    color: #cccccc;
+}
+
+.meta>span {
+    margin-right: 25px;
+}
+
+.blog-img {
+    position: relative;
+    float: left;
+    width: 35%;
+}
+
+.blog-img>span {
+    background: #1f2636;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 12px;
+}
+
+.section-title.border-left {
+    text-align: left;
+
+}
+
+.section-title.border-left>h2::before {
+    margin: 0;
+}
+
+.blog-active .owl-nav div {
+    position: absolute;
+    top: -61px;
+    left: 230px;
+    border: 1px solid #cccccc;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+
+}
+
+.blog-active .owl-nav div.owl-next {
+    left: 270px;
+
+}
+
+/* blog-area end  */
+
+
+/* brand-area start  */
+.brand-active.owl-carousel .owl-item img {
+    display: block;
+    width: inherit;
+}
+
+/* brand-area end  */
+
+/* footer-area start  */
+footer {
+    background: #171a21;
+    overflow: hidden;
+}
+
+.footer-area {
+    padding: 60px 0;
+}
+
+.footer-widget img {
+    margin-bottom: 15px;
+}
+
+.footer-widget p {
+    color: #999999;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-social>a {
+    background: #1b2334;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    width: 35px;
+}
+
+.footer-social>a:hover {
+    background: #4272d7;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.footer-link li {
+    margin-bottom: 20px;
+}
+
+.footer-link li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* footer-area end  */

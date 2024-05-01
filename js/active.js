@@ -18,6 +18,8 @@ $(document).ready(function () {
         }
     })
 
+
+
     /* project-active */
     $('.project-active').owlCarousel({
         loop: true,
@@ -35,6 +37,45 @@ $(document).ready(function () {
             }
         }
     })
+
+    /* blog-active */
+    $('.blog-active').owlCarousel({
+        loop: true,
+        // margin:10,
+        nav: true,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+
+    /* brand-active */
+    $('.brand-active').owlCarousel({
+        loop: true,
+        margin: 50,
+        nav: false,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 6
+            }
+        }
+    })
+
 
 
     /* magnificPopup-active */
