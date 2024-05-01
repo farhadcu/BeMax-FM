@@ -717,4 +717,46 @@ footer {
     font-size: 13px;
 }
 
+.footer-contact>li {
+    color: #999999;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-widget form input {
+    background: #2f3138;
+    border: 0;
+    color: #fff;
+    height: 40px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.footer-widget form {
+    position: relative;
+}
+
+.footer-widget form button {
+    background: #4272d7;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    height: 100%;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.copyright-area {
+    border-top: 1px solid #23262c;
+    padding: 30px 0;
+}
+
+.copyright-text {
+    color: #fff;
+    text-align: center;
+}
+
 /* footer-area end  */
