@@ -1,4 +1,11 @@
 $(document).ready(function () {
+
+    /* meanmenu */
+    jQuery('#mobile-menu').meanmenu({
+        meanScreenWidth: "767",
+        meanMenuContainer: '.mobile-menu'
+    });
+
     /* slider-active */
     $('.slider-active').owlCarousel({
         loop: true,
@@ -32,7 +39,10 @@ $(document).ready(function () {
             600: {
                 items: 1
             },
-            1000: {
+            768: {
+                items: 2
+            },
+            1200: {
                 items: 4
             }
         }
@@ -67,10 +77,13 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            600: {
-                items: 1
+            767: {
+                items: 3
             },
-            1000: {
+            992: {
+                items: 4
+            },
+            1200: {
                 items: 6
             }
         }
