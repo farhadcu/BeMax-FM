@@ -3,7 +3,7 @@ $(document).ready(function () {
     /* meanmenu */
     jQuery('#mobile-menu').meanmenu({
         meanScreenWidth: "767",
-        meanMenuContainer: '.mobile-menu'
+        meanMenuContainer: '.mobile-menu',
     });
 
     /* slider-active */
@@ -31,6 +31,7 @@ $(document).ready(function () {
     $('.project-active').owlCarousel({
         loop: true,
         nav: false,
+        items:1,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
         responsive: {
             0: {

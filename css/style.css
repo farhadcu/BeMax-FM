@@ -568,10 +568,10 @@ ul {
 /* working-area end  */
 
 /* blog-area start  */
-.blog-wrapper {
-    display: flex;
 
-}
+/* .blog-wrapper {
+    display: inline;
+} */
 
 .blog-content {
     padding-left: 20px;
